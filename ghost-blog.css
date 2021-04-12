@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Nunito+Sans:wght@400;600&display=swap');
+
+
+.va {
+  display: flex;
+  align-items: center;
+}
+.has-same-height .card {
+  height: 320px;
+  overflow: hidden;
+}
+.section-heading {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 6em;
+}
+.skills-content .media {
+  margin: 0 !important;
+  padding: 4px !important;
+  border: 0 !important;
+}
+
+.skills-content .progress {
+  height: 4px !important;
+}
+html {
+  font-family: 'Nunito Sans', sans-serif;
+  color: white;
+  scroll-behavior: smooth;
+}
+
+#navbarBasicExample{
+  position:fixed;
+  display:flex;
+  background-color: black;
+  width: 100%;
+}
+.footer {
+  background: #666;
+  padding: 12px;
+  font-size: 18px;
+  color: #CCC;
+  text-align: center;
+}
+
+a {
+  color: #3b7adf;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #3b7adf;
+}
+
+hr {
+  background: #24272c;
+}
+
+.hero {
+  background: #060606;
+}
+
+.title,
+.subtitle {
+  color: white;
+}
+
+.navbar .navbar-item {
+  color: #e4e2ff;
+}
+
+.navbar .navbar-item.is-active {
+  color: #e4e2ff;
+  font-weight: 700;
+}
+
+.navbar .navbar-item:hover {
+  background: transparent;
+  color: white;
+}
+
+.navbar .navbar-item a {
+  margin-left: 1rem;
+  color: #e4e2ff;
+}
+
+.loader-wrapper {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #242f3f;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.loader {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  border: 4px solid #Fff;
+  animation: loader 2s infinite ease;
+}
+.loader-inner {
+  vertical-align: top;
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  animation: loader-inner 2s infinite ease-in;
+}
+@keyframes loader {
+  0% { transform: rotate(0deg);}
+  25% { transform: rotate(180deg);}
+  50% { transform: rotate(180deg);}
+  75% { transform: rotate(360deg);}
+  100% { transform: rotate(360deg);}
+}
+@keyframes loader-inner {
+  0% { height: 0%;}
+  25% { height: 0%;}
+  50% { height: 100%;}
+  75% { height: 100%;}
+  100% { height: 0%;}
+}
